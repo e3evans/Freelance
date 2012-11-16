@@ -1,0 +1,192 @@
+body, input, table, select {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: xx-small;
+    
+}
+
+
+input[type="button"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #CCCCCC;
+    border-bottom-color: #666666;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #666666;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #666666;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #666666;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #000000;
+    font-weight: normal;
+    padding-bottom: 2px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 2px;
+}
+
+
+
+
+input[type="submit"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+
+    background-color: #CCCCCC;
+
+    border-bottom-color: #666666;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #666666;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #666666;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+
+    border-top-color: #666666;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #000000;
+    font-weight: normal;
+    padding-bottom: 2px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 2px;
+}
+
+*{ margin:0; padding:0;}
+body{ font:100% normal Arial, Helvetica, sans-serif; background:#ffffff;}
+form,textarea{margin:0; padding:0; color:#ffffff;}
+select{margin:0; padding:0; color:#000000;}
+div.registerform {
+margin:0 auto;
+padding:10px;
+width:500px;
+background:#222222;
+position:relative;
+top:50px;
+border:1px solid #262626;
+}
+
+div.registerform h1 { 
+color:#ffffff;
+font-size:18px;
+text-transform:uppercase;
+padding:5px 0 5px 5px;
+border-bottom:1px solid #161712;
+border-top:1px solid #161712; 
+}
+
+div.registerform label {
+width:100%;
+display: block;
+background:#1C1C1C;
+border-top:1px solid #262626;
+border-bottom:1px solid #161712;
+padding:10px 0 10px 0;
+}
+
+div.registerform label span {
+display: block;
+color:#bbbbbb;
+font-size:12px;
+float:right;
+width:100px;
+text-align:right;
+padding:5px 20px 0 0;
+}
+div.registerform input{
+	width:250px;
+}
+div.registerform .input_text {
+padding:10px 10px;
+width:200px;
+background:#262626;
+color:red;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+}
+
+div.registerform .message{
+padding:7px 7px;
+width:350px;
+background:#262626;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+overflow:hidden;
+height:150px;
+}
+
+div.registerform .button
+{
+margin:0 0 10px 0;
+padding:4px 7px;
+background:#CC0000;
+border:0px;
+position: relative;
+top:10px;
+left:382px;
+width:100px;
+border-bottom: 1px double #660000;
+border-top: 1px double #660000;
+border-left:1px double #FF0033;
+border-right:1px double #FF0033;
+}

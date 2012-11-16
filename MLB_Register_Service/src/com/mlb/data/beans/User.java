@@ -1,6 +1,10 @@
 package com.mlb.data.beans;
 
+
+
 public class User {
+	
+	
 	private String user_role;
 	private String company;
 	private String firstname;
@@ -19,6 +23,7 @@ public class User {
 	private String altemail;
 	private String secret;
 	private String secretanswer;
+
 	public String getUser_role() {
 		return user_role;
 	}

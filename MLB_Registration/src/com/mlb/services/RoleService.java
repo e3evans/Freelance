@@ -1,0 +1,133 @@
+package com.mlb.services;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class RoleService {
+	
+	@SuppressWarnings("unchecked")
+	public static Map getRoleData(){
+		
+//		Map roleData = new HashMap();
+		
+		Map<String,String>options = new LinkedHashMap<String, String>();
+		options.put("2012 Retail Summit","2012 MLB Retail Summit");
+		options.put("Winter Meetings","2012 Winter Meetings");
+		options.put("Winter Meetings Media","2012 Winter Meetings-Media");
+		options.put(" LicensingUsers","Licensing Users");
+		options.put("AdvertisingUser","Advertising User");
+		options.put("Australia Baseball League","Australian Baseball League");
+		options.put("Baseball Operations","Baseball Operations");
+		options.put("BTF","Baseball Tomorrow Fund");
+		options.put("Club Ticketing","Club Ticketing");
+		options.put("Community Affairs","Community Affairs");
+		options.put("Diversity - Workforce","Diversity - Workforce");
+		options.put("Envoy Coordinator","Envoy Coordinator");
+		options.put("Envoy","Envoy User");
+		options.put("Event Ticketing","Event Ticketing Allocators");
+		options.put("Farm and Scouting Meeting","Farm and Scouting Director Meeting");
+		options.put("finance.user","Finance User");
+		options.put("GM Meeting","GM Meeting");
+		options.put("Greening Cards","Greening Cards");
+		options.put("HITS","HITS Injury Analytics");
+		options.put("Human Resources","Human Resources");
+		options.put("International User","International User");
+		options.put("IT- Club Employee","IT- Club Employee");
+		options.put("IT-BOC Employee","IT-BOC Employee");
+		options.put("JDE BAM BI","JDE BAM BI");
+		options.put("LaborRelations.users","Labor Relations");
+		options.put("LARI","LARI");
+		options.put("Legal Affairs","Legal Affairs");
+		options.put("Legal Desktop Users","Legal Content Readers");
+		options.put("MLB FanCave","MLB FanCave");
+		options.put("MLB Green","MLB Green");
+		options.put("Authentication","MLB Product Authentication");
+		options.put("Authentication Club","MLB Product Authentication Club Access");
+		options.put("Authentication Licensee","MLB Product Authentication Licensee");
+		options.put("MLSBClub","MLSB - Club");
+		options.put("MLSBClubNoMedical","MLSB - Club No Medical");
+		options.put("MLSBScout","MLSB - Scout");
+		options.put("PIA","PIA+");
+		options.put("Postseason User","Postseason User");
+		options.put("Procurement","Procurement");
+		options.put("PRDesktop","Public Relations");
+		options.put("RBI League Directors","RBI League Directors");
+		options.put("RBI Readers","RBI Users");
+		options.put("Research User","Research User");
+		options.put("RFCoordination","RF Coordination");
+		options.put("Risk Management","Risk Management");
+		options.put("Sponsorship.Editors","Sponsorship Editors");
+		options.put("Sponsorship Photos","Sponsorship Photos");
+		options.put("Sponsorship.Users","Sponsorship Users");
+		options.put("Sponsorship Worksheet Editor","Sponsorship Worksheet Editor");
+		options.put("Stadium Operations","Stadium Operations");
+		options.put("TicketSales BP","Ticket Sales BP");
+		options.put("Toronto Blue Jays","Toronto Blue Jays");
+		options.put("UmpireFeedbackTool","Umpire Feedback Tool");
+		options.put("Volunteer Management System","Volunteer Management System");
+		options.put("Post Season WS Manual","World Series Manual");
+		options.put("World Series Photos","World Series Photos");
+		options.put("WBC-Staff","WBC - Staff");
+		options.put("WBC - Federation - Australia","WBC - Federation - Australia");
+		options.put("WBC - Federation - Brazil","WBC - Federation - Brazil");
+		options.put("WBC - Federation - Canada","WBC - Federation - Canada");
+		options.put("WBC - Federation - China","WBC - Federation - China");
+		options.put("WBC - Federation - Chinese Taipei","WBC - Federation - Chinese Taipei");
+		options.put("WBC - Federation - Colombia","WBC - Federation - Colombia");
+		options.put("WBC - Federation - Cuba","WBC - Federation - Cuba");
+		options.put("WBC - Federation - Dominican Republic","WBC - Federation - Dominican Republic");
+		options.put("WBC - Federation - France","WBC - Federation - France");
+		options.put("WBC - Federation - Germany","WBC - Federation - Germany");
+		options.put("WBC - Federation - Great Britain","WBC - Federation - Great Britain");
+		options.put("WBC - Federation - Israel","WBC - Federation - Israel");
+		options.put("WBC - Federation - Italy","WBC - Federation - Italy");
+		options.put("WBC - Federation - Japan","WBC - Federation - Japan");
+		options.put("WBC - Federation - Korea","WBC - Federation - Korea");
+		options.put("WBC - Federation - Mexico","WBC - Federation - Mexico");
+		options.put("WBC - Federation - Netherlands Kingdom","WBC - Federation - Netherlands Kingdom");
+		options.put("WBC - Federation - New Zealand","WBC - Federation - New Zealand");
+		options.put("WBC - Federation - Nicaragua","WBC - Federation - Nicaragua");
+		options.put("WBC - Federation - Panama","WBC - Federation - Panama");
+		options.put("WBC - Federation - Philippines","WBC - Federation - Philippines");
+		options.put("WBC - Federation - Puerto Rico","WBC - Federation - Puerto Rico");
+		options.put("WBC - Federation - South Africa","WBC - Federation - South Africa");
+		options.put("WBC - Federation - Spain","WBC - Federation - Spain");
+		options.put("WBC - Federation - Thailand","WBC - Federation - Thailand");
+		options.put("WBC - Federation - United States","WBC - Federation - United States");
+		options.put("WBC - Federation - Venezuela","WBC - Federation - Venezuela");
+		options.put("WBC - MLB - Diamondbacks","WBC - MLB - Arizona Diamondbacks");
+		options.put("WBC - MLB - Braves","WBC - MLB - Atlanta Braves");
+		options.put("WBC - MLB - Orioles","WBC - MLB - Baltimore Orioles");
+		options.put("WBC - MLB - Red Sox","WBC - MLB - Boston Red Sox");
+		options.put("WBC - MLB - Cubs","WBC - MLB - Chicago Cubs");
+		options.put("WBC - MLB - White Sox","WBC - MLB - Chicago White Sox");
+		options.put("WBC - MLB - Reds","WBC - MLB - Cincinnati Reds");
+		options.put("WBC - MLB - Indians","WBC - MLB - Cleveland Indians");
+		options.put("WBC - MLB - Rockies","WBC - MLB - Colorado Rockies");
+		options.put("WBC - MLB - Tigers","WBC - MLB - Detroit Tigers");
+		options.put("WBC - MLB - Royals","WBC - MLB - Kansas City Royals");
+		options.put("WBC - MLB - Angels","WBC - MLB - Los Angeles Angels");
+		options.put("WBC - MLB - Dodgers","WBC - MLB - Los Angeles Dodgers");
+		options.put("WBC - MLB - Marlins","WBC - MLB - Miami Marlins");
+		options.put("WBC - MLB - Brewers","WBC - MLB - Milwaukee Brewers");
+		options.put("WBC - MLB - Twins","WBC - MLB - Minnesota Twins");
+		options.put("WBC - MLB - Astros","WBC - MLB - New York Astros");
+		options.put("WBC - MLB - Mets","WBC - MLB - New York Mets");
+		options.put("WBC - MLB - Yankees","WBC - MLB - New York Yankees");
+		options.put("WBC - MLB - Athletics","WBC - MLB - Oakland Athletics");
+		options.put("WBC - MLB - Phillies","WBC - MLB - Philadelphia Phillies");
+		options.put("WBC - MLB - Pirates","WBC - MLB - Pittsburgh Pirates");
+		options.put("WBC - MLB - Padres","WBC - MLB - San Diego Padres");
+		options.put("WBC - MLB - Giants","WBC - MLB - San Francisco Giants");
+		options.put("WBC - MLB - Mariners","WBC - MLB - Seattle Mariners");
+		options.put("WBC - MLB - Cardinals","WBC - MLB - St. Louis Cardinals");
+		options.put("WBC - MLB - Rays","WBC - MLB - Tampa Bay Rays");
+		options.put("WBC - MLB - Rangers","WBC - MLB - Texas Rangers");
+		options.put("WBC - MLB - Blue Jays","WBC - MLB - Toronto Blue Jays");
+		options.put("WBC - MLB - Nationals","WBC - MLB - Washington Nationals");
+
+//		roleData.put("roledata",options);
+		return options;
+	}
+
+}

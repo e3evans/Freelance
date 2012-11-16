@@ -1,12 +1,20 @@
 package com.mlb.common.form;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class RegistrationForm {
+	@NotEmpty(message="You must select a user role.")
 	private String user_role;
+	@NotEmpty(message="Company / Team Name my not be blank.")
 	private String company;
+	@NotEmpty(message="Required field.")
 	private String firstname;
+	@NotEmpty(message="Required field.")
 	private String lastname;
+	@NotEmpty(message="Required field.")
 	private String address1;
 	private String address2;
+	@NotEmpty(message="Required field.")
 	private String city;
 	private String state;
 	private String country;
@@ -14,10 +22,14 @@ public class RegistrationForm {
 	private String phone;
 	private String mobile;
 	private String fax;
+	@NotEmpty(message="Required field.")
 	private String email;
+	@NotEmpty(message="Required field.")
 	private String confirmemail;
 	private String altemail;
+	@NotEmpty(message="Required field.")
 	private String secret;
+	@NotEmpty(message="Required field.")
 	private String secretanswer;
 	public String getUser_role() {
 		return user_role;
