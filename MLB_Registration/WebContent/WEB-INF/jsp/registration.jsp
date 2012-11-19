@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <link rel="stylesheet" href="<c:url value='/resources/css/mlb_style.css'/>" type="text/css"/>
+<script type="text/javascript" src="<c:url value="/resources/js/jquery-latest.min.js"/>"></script>
 
 
 </head>
