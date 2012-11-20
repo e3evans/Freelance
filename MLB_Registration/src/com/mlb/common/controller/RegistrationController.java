@@ -13,15 +13,31 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.mlb.common.form.RegistrationForm;
+import com.mlb.common.form.UserForm;
+import com.mlb.common.utils.Digest;
 import com.mlb.services.RoleService;
 
 @Controller
 @RequestMapping("/mlb")
 public class RegistrationController {
+	
+	private String hashKey = "R3gU$sR2@1l";
 
+	@RequestMapping(method = RequestMethod.GET)
+	public ModelAndView getUserName(ModelMap model){
+		
+		
+		return new ModelAndView("username","userIDForm",new UserForm());
+	}
+	
 	@RequestMapping("/register")
 	public ModelAndView register(ModelMap model){
 		model.put("roleList", RoleService.getRoleData());
+		
+		Digest d = new Digest(hashKey);
+		d.digest(hashKey);
+		
+		
 		return new ModelAndView("registration","registrationForm",new RegistrationForm());
 	}
 	
@@ -38,13 +54,5 @@ public class RegistrationController {
 	}
 	
 	
-//	@RequestMapping(value="/submitRegistration",method=RequestMethod.POST)
-//	public ModelAndView submitRegistration(@ModelAttribute("registration")
-//			RegistrationForm registration,BindingResult result){
-//		
-//		System.out.println(registration.getFirstname());
-//		
-//		return new ModelAndView("registration","command",registration);
-//	}
 	
 }
